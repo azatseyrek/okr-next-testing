@@ -10,7 +10,7 @@ type Props = {
 export default function TodoList({ todos, setTodos }: Props) {
   let content;
   if (todos.length === 0) {
-    content = <p>No Todos Available</p>;
+    content = <p className="text-white">No Todos Available</p>;
   } else {
     const sortedTodos = todos.sort((a, b) => b.id - a.id);
 

@@ -33,7 +33,7 @@ export default function TodoItem({ todo, setTodos }: Props) {
   };
 
   return (
-    <article className="my-4 flex justify-between items-center">
+    <article className="my-4 flex justify-between items-center text-white">
       <label
         className="text-2xl hover:underline"
         data-testid="todo-item"
