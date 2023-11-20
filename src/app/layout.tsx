@@ -16,9 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="dark:bg-slate-800">
         <Navbar />
-        <main className="mx-auto max-w-xl p-4 min-h-screen">
-          {children}
-        </main>
+        <main className="mx-auto max-w-xl p-4 min-h-screen">{children}</main>
       </body>
     </html>
   );

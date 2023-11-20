@@ -12,7 +12,7 @@ const mockTodo = {
 
 const mockSetTodos = jest.fn();
 
-describe('AddTodo', () => {
+describe('TodoItem', () => {
   describe('Render', () => {
     it('should render an article', () => {
       render(<TodoItem todo={mockTodo} setTodos={mockSetTodos} />);
